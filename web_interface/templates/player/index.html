@@ -1,0 +1,26 @@
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<!--
+<form action="/player/loadnewplayer/" method="post" enctype="multipart/form-data">
+{% csrf_token %}
+    <input type="text" name="text_ob" id="name"/>
+    <label for="name">"filename"</label><br />
+<input type="submit" value="inject into database" />
+</form>
+-->
+
+<!-- form needs this for the file to contain data: enctype="multipart/form-data" -->
+
+
+{% if latest_player_list %}
+    <ul>
+    {% for player in latest_player_list %}
+        <li><a href="/player/{{ player.id }}/">{{ player.question }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No player is available.</p>
+{% endif %}
+
+
+

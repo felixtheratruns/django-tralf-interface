@@ -1,0 +1,199 @@
+#player
+{
+  height:405px;
+  width:800px;
+  border-top:7px solid #333333;
+  border-bottom:7px solid #333333;
+  border-left:1px solid #333333;
+  border-right:1px solid #333333;
+  border-radius: 15px 15px 15px 15px / 7px 7px 7px 7px;
+  -moz-border-radius: 15px 15px 15px 15px / 7px 7px 7px 7px;
+  align-center;
+  padding-bottom:15px;
+}
+
+#screen
+{
+  height:405px;
+  width:790px
+//  border:2px solid black;
+  margin-left:1px;
+  overflow:auto;
+}
+
+#frame
+{
+*/  text-align:center; */
+*/  border:1px dashed red; */
+}
+
+
+.play_bar
+{
+  height:15px;
+  background-color:#a6a8b0;
+  position:relative;
+}
+.play_button
+{
+  background-image:url('img/pb.png');
+  background-repeat:no-repeat;
+  height:25px;
+  width:45px;
+}
+ 
+#play
+{
+//  display:inline;
+  position:absolute;
+  top:470px;
+}
+
+#bplay
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+ 
+.pause_button
+{
+  background-image:url('img/pab.png');
+  background-repeat:no-repeat;
+  height:25px;
+  width:45px;
+  position:absolute;
+  top:473px;
+}
+
+#fnum
+{
+  color:#a6a8b0;
+  text-align:center;
+  background-color:#333333;
+  height:21px;
+  width:36px;
+  border:2px solid #333333;
+  border-radius: 4px 0px 4px 4px / 2px 2px 2px 2px;
+  -moz-border-radius: 4px 0px 4px 4px / 2px 2px 2px 2px;
+  position:absolute;
+  top:470px;
+  left:771px;
+}
+
+#fdate
+{
+  color:#a6a8b0;
+  position:absolute;
+  top:74px;
+  left:630px;
+}
+
+#ftime
+{
+  color:#a6a8b0;
+  position:absolute;
+  top:74px;
+  left:720px;
+}
+
+.lnum
+{
+  width:15px;
+  margin-right:10px;
+  display:inline-block;
+}
+
+.hide
+{
+  visibility:hidden;
+}
+.pchange
+{
+  color:#660099;
+}
+.cchange
+{
+  background-color:#66ff00;
+}
+
+.nchange
+{
+  color:#cc3300;
+}
+
+#toggle_lnum
+{
+  border:2px dotted black;
+  margin:1px;
+  display:inline-block;
+}
+
+#toggle_ascroll
+{
+  border:2px dotted black;
+  margin:1px;
+  display:inline-block;
+}
+.message
+{
+  text-align:center;
+  width:200px;
+  padding:1px;
+  
+//  border:2px dotted black;
+  
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:185px;
+}
+
+/* 
+.fframe_button
+{
+  background-color:#00ccff;
+  height:17px;
+  width:30px;
+  padding:1px;
+  border:2px solid black;
+  margin:1px;
+  margin-left:25px;
+  display:inline;
+  visibility:hidden;
+ }
+ 
+.lframe_button
+{
+  background-color:#00ccff;
+  height:17px;
+  width:30px;
+  padding:1px;
+  border:2px solid black;
+  margin:1px;
+  display:inline;
+  visibility:hidden;
+ }
+ 
+.pframe_button
+{
+  background-color:#ff9900;
+  height:17px;
+  width:30px;
+  padding:1px;
+  border:2px solid black;
+  margin:1px;
+  display:inline;
+  visibility:hidden;
+ }
+ 
+.nframe_button
+{
+  background-color:#ff9900;
+  height:17px;
+  width:30px;
+  padding:1px;
+  border:2px solid black;
+  margin:1px;
+  display:inline;
+  visibility:hidden;
+ }
+*/
